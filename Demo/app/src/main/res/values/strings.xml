@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Linearlayout</string>
+    <string name="vision">empower education</string>
+    <string name="enter_mobile_number_email">Enter mobile Number/Email</string>
+    <string name="login_for_better_experience">Login for better experience</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="enter_password">Enter Password</string>
+</resources>

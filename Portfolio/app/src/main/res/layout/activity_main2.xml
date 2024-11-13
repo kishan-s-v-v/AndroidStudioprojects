@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/img_1"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="76dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Kishan Chandaluri"
+        tools:ignore="MissingClass" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="30dp"
+        android:columnCount="2"
+        android:rowCount="3">
+
+        <ImageButton
+            android:id="@+id/academicButton"
+            android:layout_width="2dp"
+            android:layout_height="169dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/academic"
+            android:contentDescription="Academic" />
+
+        <ImageButton
+            android:id="@+id/hobbiesButton"
+            android:layout_width="0dp"
+            android:layout_height="147dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:contentDescription="Hobbies"
+            android:background="@drawable/hobbies" />
+
+        <ImageButton
+            android:id="@+id/projectsButton"
+            android:layout_width="0dp"
+            android:layout_height="154dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:contentDescription="Projects"
+            android:background="@drawable/projects"/>
+
+        <ImageButton
+            android:id="@+id/skillsButton"
+            android:layout_width="0dp"
+            android:layout_height="148dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:contentDescription="Skills"
+            android:background="@drawable/skills"/>
+
+        <ImageButton
+            android:id="@+id/certificatesButton"
+            android:layout_width="0dp"
+            android:layout_height="138dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:contentDescription="Certificates"
+            android:background="@drawable/certificates"/>
+
+        <ImageButton
+            android:id="@+id/feedbackButton"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:contentDescription="Feedback"
+            android:background="@drawable/feedback"/>
+    </GridLayout>
+</RelativeLayout>
